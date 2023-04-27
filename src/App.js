@@ -64,12 +64,12 @@ function App() {
   }, [allBooks, setCart, orders])
 
   useEffect(() => {
-    fetch("http://localhost:4000/allBooks")
+    fetch("/allBooks")
       .then(res => res.json())
       .then(data => {
         const fetchedData = data.reverse()
         setAllBooks(fetchedData);
-        fetch("http://localhost:4000/orders")
+        fetch("/orders")
           .then(res => res.json())
           .then(data => {
             const fetchedData = data.reverse()

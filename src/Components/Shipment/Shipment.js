@@ -93,7 +93,7 @@ const Shipment = () => {
             status: "Pending"
         };
         setLoading(true);
-        fetch("http://localhost:4000/placeOrder", {
+        fetch("/placeOrder", {
             method: "post",
             headers: {
                 "Content-Type": "application/json"
@@ -105,7 +105,7 @@ const Shipment = () => {
                 setOrder(order);
                 setLoading(false);
                 clearLocalShoppingCart();
-                fetch("http://localhost:4000/orders")
+                fetch("/orders")
                     .then(res => res.json())
                     .then(data => {
                         const fetchedData = data.reverse()
