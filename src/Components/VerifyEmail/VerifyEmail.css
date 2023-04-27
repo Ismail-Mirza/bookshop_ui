@@ -1,0 +1,60 @@
+.verifyEmail{
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verifyEmail .verifyEmailDetails{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.verifyEmail .verifyEmailDetails .verifyEmailImg{
+    font-size: 200px;
+    color: #498EC5;
+    margin-bottom: 20px;
+}
+
+.verifyEmail .verifyEmailDetails h3{
+    color: #498EC5;
+}
+
+.verifyEmail .verifyEmailDetails p{
+    text-align: start;
+}
+
+.verifyEmail .verifyEmailDetails .checkFont{
+    background-color: lime;
+    border-radius: 15px;
+    padding: 4px;
+    color: white;
+}
+
+.verifyEmail .verifyEmailDetails div > *:first-child{
+    outline: none;
+    border: 2px solid #498EC5;
+    background-color: #498EC5;
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.verifyEmail .verifyEmailDetails div > *:last-child{
+    outline: none;
+    border: 2px solid #498EC5;
+    color: #498EC5;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.verifyEmail .verifyEmailDetails div > *:first-child:hover{
+    background-color: #287ec4;
+}
+
+.verifyEmail .verifyEmailDetails div > *:last-child:hover{
+    background-color: #e4e4e4;
+}

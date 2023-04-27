@@ -1,0 +1,71 @@
+.orderSummary{
+    margin: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.orderSummary div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderSummary > p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.orderSummary div:nth-child(5) p{
+    font-weight: 700;
+}
+
+.orderSummary p span{
+    margin: auto;
+}
+
+.orderSummary .proceedBtn{
+    width: 260px;
+    background-color: #498EC5;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.orderSummary .proceedBtn:hover{
+    background-color: #287ec4;
+}
+
+@media only screen and (max-width: 800px) {
+    .orderSummary{
+        width: 450px;
+    }
+
+    .orderSummary .proceedBtn{
+        width: 410px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .orderSummary{
+        width: 340px;
+    }
+
+    .orderSummary .proceedBtn{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .orderSummary{
+        width: 310px;
+    }
+
+    .orderSummary .proceedBtn{
+        width: 270px;
+    }
+}

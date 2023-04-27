@@ -1,0 +1,90 @@
+.footer{
+    background-color: white;
+    padding: 0 20px;
+    padding-top: 20px;
+    border-top: 1px solid #498EC5;
+}
+
+.footer > div:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+.footer > div:last-child{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 16px;
+}
+
+.footer > div > *{
+    width: 20%;
+}
+
+.footer > div > * > p:first-child{
+    font-weight: 700;
+}
+
+.footer .icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.footer .icon:first-child:hover{
+    color: #3b5998;
+}
+
+.footer .icon:nth-child(2):hover{
+    color: #ff1e00;
+}
+
+.footer .icon:nth-child(3):hover{
+    color: #00acee;
+}
+
+.footer .icon:last-child:hover{
+    color: #0e76a8;
+}
+
+.footer .mobileFooter{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer > div:first-child{
+        flex-wrap: wrap;
+    }
+    .footer > div > *{
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .footer > div:first-child{
+        display: none;
+    }
+
+    .footer .mobileFooter{
+        display: block;
+        font-size: 12px;
+    }
+
+    .footer .mobileFooter > div:last-child{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer .mobileFooter > div:first-child{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer .mobileFooter > div:first-child  p{
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,18 @@
+.shop{
+    padding: 20px 0px;
+    background-color: #e4e4e4;
+}
+
+.shop .shopCarousel{
+    display: flex;
+    justify-content: center;
+}
+
+.shop .carousel{
+    width: 1300px;
+    height: 400px;
+}
+
+.shop .carousel img{
+    height: 400px;
+}

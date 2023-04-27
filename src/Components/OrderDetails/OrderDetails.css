@@ -1,0 +1,124 @@
+.orderInfo{
+    background-color: #e4e4e4;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.orderInfo .orderDetailsInfo{
+    background-color: white;
+    padding: 20px;
+    width: 800px;
+}
+
+.orderInfo .orderDetailsInfo > div p{
+    line-height: 1;
+}
+
+.orderInfo .orderDetailsInfo > div > p:first-child{
+    color: #498EC5;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.orderInfo .orderDetailsInfo > div > p:nth-child(2){
+    color: gray;
+}
+
+.orderInfo .orderDetailsInfo > div > div:nth-child(3){
+    margin-bottom: 40px;
+}
+
+.orderInfo .orderDetailsInfo > div > div:nth-child(3) > p,
+.orderInfo .orderDetailsInfo .PricingAndDelivery > div > p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.orderInfo .orderDetailsInfo .orderCart{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.orderInfo .orderDetailsInfo .orderCart .orderCartDetails{
+    padding: 5px 10px;
+}
+
+.orderInfo .orderDetailsInfo .orderCart .orderCartDetails > small{
+    font-size: 10px;
+}
+
+.orderInfo .orderDetailsInfo .orderCart .orderCartDetails img{
+    width: 70px;
+    height: 110px;
+}
+
+.orderInfo .orderDetailsInfo .PricingAndDelivery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderInfo .orderDetailsInfo .PricingAndDelivery > div{
+    width: 50%;
+    margin: 0 20px;
+}
+
+.orderInfo .orderDetailsInfo .PricingAndDelivery > div:first-child > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderInfo .orderDetails > img{
+    height: 500px;
+}
+
+@media only screen and (max-width: 950px) {
+    .orderInfo .orderDetailsInfo .orderCart .orderCartDetails img{
+        width: 65px;
+        height: 100px;
+    }
+
+    .orderInfo .orderDetailsInfo .orderCart > p:last-child{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .orderInfo .orderDetailsInfo .orderCart .orderCartDetails img{
+        width: 40px;
+        height: 60px;
+    }
+
+    .orderInfo .orderDetailsInfo .orderCart .orderCartDetails > small{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .orderInfo .orderDetailsInfo .orderCart .orderCartDetails img{
+        width: 30px;
+        height: 50px;
+    }
+
+    .orderInfo .orderDetailsInfo .orderCart .orderCartDetails > small{
+        font-size: 5px;
+    }
+
+    .orderInfo .orderDetailsInfo .PricingAndDelivery{
+        flex-wrap: wrap;
+    }
+
+    .orderInfo .orderDetailsInfo .PricingAndDelivery > div{
+        width: 100%;
+    }
+
+    .orderInfo .orderDetails > img{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .orderInfo .orderDetailsInfo .orderCart .orderCartDetails{
+        padding: 5px 3px;
+    }
+}

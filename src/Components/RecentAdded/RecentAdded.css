@@ -1,0 +1,62 @@
+.recentlySoldProducts{
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    width: 1300px;
+}
+
+.recentlySoldProducts .cardHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recentlySoldProducts .cardHead .viewMoreBtn{
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #498EC5;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1350px) {
+    .recentlySoldProducts{
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .recentlySoldProducts{
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .recentlySoldProducts{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .recentlySoldProducts{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .recentlySoldProducts{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .recentlySoldProducts{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .recentlySoldProducts{
+        width: 310px;
+    }
+}

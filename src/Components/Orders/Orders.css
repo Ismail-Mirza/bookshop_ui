@@ -1,0 +1,81 @@
+.orders{
+    background-color: #e4e4e4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.orders .orderDetails .allOrders{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #498EC5;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.orders .orderDetails .allOrders:hover{
+    background-color: #f8f8f8;
+}
+
+.orders .orderDetails .allOrders > *:first-child{
+    margin-right: 40px;
+}
+
+.orders .orderDetails .allOrders > * > p{
+    line-height: 1;
+}
+
+.orders .orderDetails .allOrders > *:first-child > p:first-child{
+    color: #498EC5;
+    font-weight: 600;
+}
+
+.orders .orderDetails .allOrders > *:first-child > p:last-child{
+    color: gray;
+}
+
+.orders .orderDetails .allOrders > *:last-child > p:first-child{
+    background-color: #498EC5;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+}
+
+.orders .orderDetails .allOrders > *:last-child > p:last-child{
+    color: #ff9900;
+    font-weight: 600;
+}
+
+.orders .orderDetails > img{
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .orders .orderDetails > img{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .orders .orderDetails .allOrders{
+        width: 340px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .orders .orderDetails .allOrders{
+        width: 310px;
+        padding: 10px;
+    }
+
+    .orders .orderDetails .allOrders > *:first-child > p:first-child{
+        font-size: 14px;
+    }
+
+    .orders .orderDetails .allOrders > *:first-child > p:last-child{
+        font-size: 13px;
+    }
+}

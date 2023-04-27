@@ -1,0 +1,154 @@
+.carouselSec{
+    width: 1300px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+}
+
+.carouselSec .carouselItem{
+    min-width: 1300px;
+    height: 400px;
+    transition: .5s;
+}
+
+/* .carouselSec #goLeft{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 100%;
+    left: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: gray;
+    transition: .5s;
+    font-size: 30px;
+}
+
+.carouselSec #goRight{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 100%;
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: gray;
+    transition: .5s;
+    font-size: 30px;
+}
+
+.carouselSec #goLeft:hover{
+    background: gray;
+    opacity: .2;
+    color: black;
+}
+
+.carouselSec #goRight:hover{
+    background: gray;
+    opacity: .2;
+    color: black;
+} */
+
+@media only screen and (max-width: 1350px) {
+    .carouselSec{
+        width: 1000px;
+        height: 300px;
+    }
+
+    .carouselSec .carouselItem img{
+        width: 1000px;
+        height: 300px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .carouselSec{
+        width: 800px;
+        height: 250px;
+    }
+
+    .carouselSec .carouselItem img{
+        width: 800px;
+        height: 250px;
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .carouselSec{
+        width: 600px;
+        height: 185px;
+    }
+
+    .carouselSec .carouselItem img{
+        width: 600px;
+        height: 185px;
+        margin-top: 107.5px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carouselSec{
+        width: 500px;
+        height: 155px;
+    }
+    .carouselSec .carouselItem img{
+        width: 500px;
+        height: 155px;
+        margin-top: 122.5px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .carouselSec{
+        width: 450px;
+        height: 140px;
+    }
+    .carouselSec .carouselItem img{
+        width: 450px;
+        height: 145px;
+        margin-top: 125.5px;
+    } 
+
+    /* .carouselSec #goLeft{
+        font-size: 15px;
+    }
+
+    .carouselSec #goRight{
+        font-size: 15px;
+    } */
+}
+
+@media only screen and (max-width: 441px) {
+    .carouselSec{
+        width: 350px;
+        height: 108px;
+    }
+
+    .carouselSec .carouselItem img{
+        width: 350px;
+        height: 108px;
+        margin-top: 146px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .carouselSec{
+        width: 310px;
+        height: 95px;
+    }
+
+    .carouselSec .carouselItem img{
+        width: 310px;
+        height: 95px;
+        margin-top: 152.5px;
+    }
+}

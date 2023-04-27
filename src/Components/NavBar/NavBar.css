@@ -1,0 +1,129 @@
+.navBar .logo1 {
+    margin: 10px;
+    height: 60px;
+}
+
+.navBar .search > input{
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 35px;
+    padding: 0px 15px;
+    outline: none;
+    border: 1px solid #498EC5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 16px;
+}
+
+.navBar .secondarySearch{
+    display: none;
+}
+
+.navBar .search > * > *:last-child{
+    height: 35px;
+    background-color: #498EC5;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.navBar .signIn{
+    height: 37px;
+    background-color: #498EC5;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin: 5px 20px;
+    outline: none;
+    border: none;
+}
+
+.navBar .signIn:hover{
+    background-color: #498EC5;
+}
+
+@media only screen and (max-width: 1100px) {
+    .navBar .search > input{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navBar .search > input{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .navBar .logo1 {
+        margin: 10px;
+        height: 40px;
+    }
+
+    .navBar .search{
+        display: none;
+    }
+
+    .navBar .secondarySearch{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    .navBar .secondarySearch > div > input{
+        width: 400px;
+        margin-left: 40px;
+        height: 31px;
+        padding: 0px 10px;
+        outline: none;
+        border: 1px solid #498EC5;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 16px;
+    }
+
+    .navBar .secondarySearch > div > * > *:last-child{
+        height: 31px;
+        background-color: #498EC5;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 5px;
+        outline: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .navBar .secondarySearch > div > input{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+
+    .navBar .secondarySearch > div > input{
+        width: 230px;
+    }
+
+    .navBar .secondarySearch > div > * > *:last-child{
+        margin-bottom: 2.5px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .navBar .secondarySearch > div > input{
+        width: 200px;
+    }
+}

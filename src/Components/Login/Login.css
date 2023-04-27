@@ -1,0 +1,93 @@
+.login{
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .loginDetails{
+    background-color: white;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login .loginDetails img{
+    width: 350px;
+}
+
+.login .loginDetails input{
+    width: 350px;
+    padding: 8px 10px;
+    border: 1px solid #498EC5;
+    border-radius: 5px;
+    outline: none;
+    background-color: #e4e4e4;
+}
+
+.login .loginDetails small{
+    font-size: 11px;
+    color: red;
+}
+
+.login .loginDetails .loginError{
+    width: 350px;
+}
+
+.login .loginDetails .loginBtn{
+    width: 350px;
+    background-color: #498EC5;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.login .loginDetails .loginBtn:hover{
+    background-color: #287ec4;
+}
+
+.login .loginDetails .loginBtn img{
+    width: 25px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 441px) {
+    .login .loginDetails img{
+        width: 300px;
+    }
+
+    .login .loginDetails input{
+        width: 300px;
+    }
+
+    .login .loginDetails .loginError{
+        width: 300px;
+    }
+
+    .login .loginDetails .loginBtn{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .login .loginDetails img{
+        width: 260px;
+    }
+
+    .login .loginDetails input{
+        width: 260px;
+    }
+
+    .login .loginDetails .loginError{
+        width: 260px;
+    }
+
+    .login .loginDetails .loginBtn{
+        width: 260px;
+    }
+}
